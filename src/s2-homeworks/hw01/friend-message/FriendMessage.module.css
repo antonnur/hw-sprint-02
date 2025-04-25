@@ -1,0 +1,41 @@
+.friendMessage {
+ display: flex;
+  justify-content: flex-end;
+}
+
+.friendImageAndText {
+
+}
+
+.friendImageAndText img {
+  width: 70px;
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.87);
+  box-shadow: 0 0 7px #666;
+}
+
+.friendText {
+  /*width: 110%;*/
+  /*height: 45%;*/
+  background-color: #0066CC;
+  border-radius: 8px;
+
+}
+
+.friendText:after {
+
+}
+
+.friendName {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.friendMessageText {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.friendTime {
+
+}

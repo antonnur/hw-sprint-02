@@ -1,0 +1,39 @@
+.message {
+  display: grid;
+  justify-content: flex-start;
+}
+
+.imageAndText {
+}
+
+.imageAndText img {
+  width: 70px;
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.87);
+  box-shadow: 0 0 7px #666;
+}
+
+.text {
+  /*width: 110%;*/
+  /*height: 45%;*/
+  background-color: #F5F7FB;
+  filter: drop-shadow(1px 2px 3px rgba(10, 9, 9, 0.18));
+  border-radius: 8px;
+}
+
+.text:after {
+
+}
+
+.name {
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 0 5px 10px;
+}
+
+.messageText {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.time {
+
+}
