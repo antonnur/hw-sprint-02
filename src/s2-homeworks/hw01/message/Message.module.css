@@ -1,9 +1,17 @@
 .message {
   display: grid;
   justify-content: flex-start;
+  padding-top: 26px;
 }
 
 .imageAndText {
+  grid-template-columns: auto auto auto;
+  /* Два ряда */
+  /*grid-template-rows: auto auto;*/
+  /* Автоматическое размещение в ряд */
+  grid-auto-flow: row;
+  /* Отступы между ячейками */
+  gap: 20px;
 }
 
 .imageAndText img {
@@ -27,13 +35,18 @@
 
 .name {
   font-family: 'Montserrat', sans-serif;
-  padding: 10px 0 5px 10px;
+  font-weight: bold;
+  padding: 8px 10px 0 10px;
 }
 
 .messageText {
   font-family: 'Montserrat', sans-serif;
+  margin: 0 10px;
 }
 
 .time {
-
+  margin-top: 5px;
+  margin-left: 18px;
+  font-size: 14px;
+  font-weight: bold;
 }

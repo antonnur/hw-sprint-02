@@ -1,10 +1,17 @@
 .friendMessage {
- display: flex;
+  /*display: flex;*/
   justify-content: flex-end;
+  padding: 26px 0 0;
 }
 
 .friendImageAndText {
-
+  grid-template-columns: auto auto auto;
+  /* Два ряда */
+  /*grid-template-rows: auto auto;*/
+  /* Автоматическое размещение в ряд */
+  grid-auto-flow: row;
+  /* Отступы между ячейками */
+  /*gap: 20px;*/
 }
 
 .friendImageAndText img {
@@ -15,11 +22,12 @@
 }
 
 .friendText {
+  grid-row-start: 1;
+  margin-right: 20px;
   /*width: 110%;*/
   /*height: 45%;*/
   background-color: #0066CC;
   border-radius: 8px;
-
 }
 
 .friendText:after {
@@ -27,15 +35,22 @@
 }
 
 .friendName {
+  font-weight: bold;
+  padding: 8px 10px 0 10px;
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
 .friendMessageText {
+  margin: 0 10px;
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
 .friendTime {
-
+  margin-top: 5px;
+  margin-right: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: end;
 }
