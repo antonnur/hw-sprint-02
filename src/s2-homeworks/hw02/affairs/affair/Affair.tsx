@@ -30,7 +30,7 @@ function Affair(props: AffairPropsType) {
             </div>
             <div id={'hw2-priority-' + props.affair._id} hidden>
                 {/*при проверке будет ошибка надо убрать комментарий*/}
-                {props.affair.priority}
+                //TODO {props.affair.priority}
             </div>
 
             <button
