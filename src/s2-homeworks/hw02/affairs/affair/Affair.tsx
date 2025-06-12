@@ -29,8 +29,8 @@ function Affair(props: AffairPropsType) {
                 {/**/}
             </div>
             <div id={'hw2-priority-' + props.affair._id} hidden>
-                {/*при проверке будет ошибка надо убрать комментарий*/}
-                //TODO {props.affair.priority}
+                {/* TODO hidden = не работает из-за GRID */}
+                 {props.affair.priority}
             </div>
 
             <button

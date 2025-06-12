@@ -2,7 +2,7 @@
 }
 
 .inputAndButtonContainer {
-  grid-template-columns: 2fr 3fr
+  display: flex;
 }
 
 .error {
@@ -40,7 +40,7 @@
   padding: 5px 24px;
   color: #FFFFFF;
   background: #0066CC;
-
+  margin-left: 12px;
 }
 
 .button:focus {
@@ -55,7 +55,7 @@
 .button:disabled {
   color: #FFFFFF;
   opacity: 0.5;
-
+  margin-left: 12px;
 }
 
 .text {
