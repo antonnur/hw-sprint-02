@@ -1,6 +1,5 @@
 .sendForm {
   grid-template-columns: auto 120px;
-  padding: 26px 0;
 }
 
 .textarea {
@@ -10,7 +9,7 @@
   height: 40px !important;
   min-width: 100px;
   /*max-width: 500px;*/
-  background-color: #F5F7FB;
+  background-color: #f5f7fb;
   border-radius: 20px;
   border: none;
   filter: drop-shadow(1px 2px 3px rgba(10, 9, 9, 0.18));
@@ -22,17 +21,14 @@
   height: 40px;
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
-  color: #FFFFFF;
-  background-color: #0066CC;
+  color: #ffffff;
+  background-color: #0066cc;
   border-radius: 20px;
   border: none;
-
 }
 
 .button:hover {
-
 }
 
 .button:active {
-
 }
