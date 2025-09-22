@@ -1,5 +1,5 @@
-.greetingForm {
-}
+/* .greetingForm {
+} */
 
 .inputAndButtonContainer {
   display: flex;
@@ -7,7 +7,7 @@
 
 .error {
   padding: 7px 0 0 0;
-  color: #CC0000;
+  color: #cc0000;
 }
 
 .input {
@@ -17,17 +17,17 @@
   font-size: 16px;
   padding: 8px 12px;
   border-radius: 5px;
-  border: 1px solid #D1D1D1
+  border: 1px solid #d1d1d1;
 }
 
-.input:focus {
-}
+/* .input:focus {
+} */
 
 .errorInput {
   width: 380px;
   height: 36px;
   border-radius: 5px;
-  border: 1px solid #CC0000;
+  border: 1px solid #cc0000;
 }
 
 .button {
@@ -38,22 +38,20 @@
   border: none;
   border-radius: 3px;
   padding: 5px 24px;
-  color: #FFFFFF;
-  background: #0066CC;
+  color: #ffffff;
+  background: #0066cc;
   margin-left: 12px;
 }
 
-.button:focus {
-
-}
+/* .button:focus {
+} */
 
 .button:active {
-  background: #0066CC;
-
+  background: #0066cc;
 }
 
 .button:disabled {
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 0.5;
   margin-left: 12px;
 }

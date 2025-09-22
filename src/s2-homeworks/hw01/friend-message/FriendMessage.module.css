@@ -1,7 +1,7 @@
 .friendMessage {
   /*display: flex;*/
   justify-content: flex-end;
-  padding: 26px 0 0;
+  padding: 26px 0;
 }
 
 .friendImageAndText {
@@ -26,13 +26,12 @@
   margin-right: 20px;
   /*width: 110%;*/
   /*height: 45%;*/
-  background-color: #0066CC;
+  background-color: #0066cc;
   border-radius: 8px;
 }
 
-.friendText:after {
-
-}
+/* .friendText:after {
+} */
 
 .friendName {
   font-weight: bold;

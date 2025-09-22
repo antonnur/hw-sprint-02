@@ -28,7 +28,8 @@
 }
 
 .button:hover {
+  background: #58acff;
 }
 
-.button:active {
-}
+/* .button:active {
+} */
