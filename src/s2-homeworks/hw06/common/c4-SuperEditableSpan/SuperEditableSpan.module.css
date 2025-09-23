@@ -1,0 +1,27 @@
+.spanBlock {
+  display: flex;
+  align-items: center;
+  color: #0080ff;
+
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.span {
+  padding-left: 10px;
+}
+
+[id='hw6-spanable-input'] {
+  width: 288px;
+  height: 36px;
+  opacity: 1;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #d1d1d1;
+}
+
+/* .input {
+} */
+
+/* .pen {
+} */
